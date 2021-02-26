@@ -42,7 +42,7 @@ class ColumnDublicateValidator extends ConstraintValidator
             $useMap[$key] = $value['name'];
         }
         if ($result) {
-            return implode($result, ', ');
+            return implode(', ', $result);
         }
 
         return false;

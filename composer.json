@@ -23,6 +23,11 @@
         "ext-curl": "*",
         "oro/platform": "4.1.*"
     },
+    "require-dev": {
+        "phpunit/phpunit": "9.1.*",
+        "johnkary/phpunit-speedtrap": "3.2.*",
+        "symfony/phpunit-bridge": "4.4.13"
+    },
     "repositories": {
         "oro": {
             "type": "composer",
